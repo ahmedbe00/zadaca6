@@ -24,6 +24,8 @@ Constructor without parameters, creating an empty BookShelf
 
 Methods:
 
+addBook(Book book) - adds book to shelf
+
 containsBook(String title) - returning	boolean depending if the shelf contains a Book with the
 provided title
 
@@ -46,11 +48,11 @@ The Robot has couple of methods:
 
 moveSouth() - moves the Robot to the south, meaning it will decrease the y.position by 1
 
-moveNorth() - moves the Robot to the south, meaning it will increase the y.position by 1
+moveNorth() - moves the Robot to the north, meaning it will increase the y.position by 1
 
-moveEast() - moves the Robot to the south, meaning it will increase the x.position by 1
+moveEast() - moves the Robot to the east, meaning it will increase the x.position by 1
 
-moveWest() - moves the Robot to the south, meaning it will decrease the x.position by 1
+moveWest() - moves the Robot to the west, meaning it will decrease the x.position by 1
 
 getPosition() - return current position
 
@@ -66,7 +68,6 @@ if n > number of moves, print all moves
 Example of print:
 
 (2,5)
-
 (1,5)
 
-(1,4
+(1,4)
